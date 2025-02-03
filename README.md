@@ -1,3 +1,3 @@
-# ms-teams-status-green-defender
+# MS TEAM STATUS DEFENDER
 
-Make your MS teams status always be "Online" (green) rather than yellow!!
+Keep your MS Team status green.

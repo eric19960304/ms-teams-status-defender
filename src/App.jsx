@@ -1,7 +1,7 @@
-import "./App.css";
-import React, { useState } from "react";
+import { useState } from 'react'
+import './App.css'
 
-export default function App() {
+function App() {
   const [text, setText] = useState("");
 
   const handleChange = (e) => {
@@ -14,15 +14,18 @@ export default function App() {
   };
 
   return (
-    <div className="main">
-      <h2>Life Saver for those use Microsoft Teams</h2>
+    <>
+      <div className="main">
+      <h2>Life Saver for those who use Microsoft Teams</h2>
       <input
         type="text"
-        maxLength={30}
         value={text}
         onChange={handleChange}
-        placeholder="hold down space key with stuff to keep your status always green!"
+        placeholder="keep pressing space key"
       />
     </div>
-  );
+    </>
+  )
 }
+
+export default App
